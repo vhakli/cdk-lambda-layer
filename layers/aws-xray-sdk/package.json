@@ -2,9 +2,7 @@
   "name": "@villehx/aws-xray-sdk-layer",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc",
-    "compile": "tsc",
-    "bundle": "esbuild --bundle --platform=node --sourcemap layer.ts --outdir=../../dist/xray/nodejs/node_modules"
+    "build": "esbuild --bundle --platform=node layer.ts --outdir=../../dist/xray/nodejs/node_modules"
   },
   "dependencies": {
     "aws-xray-sdk": "^3.4.1"

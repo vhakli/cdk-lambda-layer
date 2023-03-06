@@ -10,5 +10,9 @@ export class LayerStack extends Stack {
       compatibleRuntimes: [Runtime.NODEJS_18_X],
       code: Code.fromAsset("./dist/xray"),
     });
+    new LayerVersion(this, "axios-layer", {
+      compatibleRuntimes: [Runtime.NODEJS_18_X],
+      code: Code.fromAsset("./dist/axios"),
+    });
   }
 }
