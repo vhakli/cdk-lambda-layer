@@ -1,12 +1,15 @@
 {
-  "name": "cdk-lambda-layer",
+  "name": "@villehx/layers",
   "version": "1.0.0",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "cdk": "cdk"
   },
+  "workspaces": [
+    "layers/*"
+  ],
   "dependencies": {
     "aws-cdk-lib": "^2.67.0",
-    "aws-xray-sdk": "^3.4.1",
     "constructs": "^10.1.269",
     "source-map-support": "^0.5.21"
   },

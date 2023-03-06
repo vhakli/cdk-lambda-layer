@@ -1,2 +1,4 @@
+.cdk.staging
 cdk.out
 node_modules
+!dist/*/nodejs/node_modules

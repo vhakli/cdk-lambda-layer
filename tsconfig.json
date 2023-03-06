@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "commonjs",
+    "lib": ["ESNext"],
+    "resolveJsonModule": true,
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "strictPropertyInitialization": true
+  },
+  "include": ["layers/**/*"],
+  "exclude": ["node_modules", "cdk.out"]
+}
