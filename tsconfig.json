@@ -17,6 +17,5 @@
     "inlineSources": true,
     "strictPropertyInitialization": true
   },
-  "include": ["layers/**/*"],
   "exclude": ["node_modules", "cdk.out"]
 }
