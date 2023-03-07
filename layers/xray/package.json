@@ -1,0 +1,14 @@
+{
+  "name": "@villehx/xray",
+  "version": "1.0.0",
+  "main": "./dist/nodejs/node_modules/@villehx/xray.js",
+  "types": "./dist/xray.d.ts",
+  "scripts": {
+    "build": "npm run compile && npm run bundle",
+    "compile": "tsc",
+    "bundle": "ts-node-esm ../../build.ts xray"
+  },
+  "dependencies": {
+    "aws-xray-sdk": "^3.4.1"
+  }
+}

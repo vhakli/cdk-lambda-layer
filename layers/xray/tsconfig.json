@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "rootDir": ".",
-    "outDir": "./dist/package"
+    "declarationDir": "dist"
   },
-  "include": ["layer.ts"]
+  "include": ["xray.ts"]
 }

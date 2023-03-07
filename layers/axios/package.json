@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run compile && npm run bundle",
     "compile": "tsc",
-    "bundle": "esbuild --bundle --platform=node axios.ts --outfile=dist/layer/nodejs/node_modules/@villehx/axios.js"
+    "bundle": "ts-node-esm ../../build.ts axios"
   },
   "dependencies": {
     "axios": "^1.3.4"

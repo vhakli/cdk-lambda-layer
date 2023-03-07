@@ -8,7 +8,7 @@ export class LayerStack extends Stack {
 
     new LayerVersion(this, "xray-layer", {
       compatibleRuntimes: [Runtime.NODEJS_18_X],
-      code: Code.fromAsset("./layers/aws-xray-sdk/dist/layer"),
+      code: Code.fromAsset("./layers/xray/dist/layer"),
     });
     new LayerVersion(this, "axios-layer", {
       compatibleRuntimes: [Runtime.NODEJS_18_X],
