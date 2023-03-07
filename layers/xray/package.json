@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run compile && npm run bundle",
     "compile": "tsc",
-    "bundle": "ts-node-esm ../../build.ts xray"
+    "bundle": "node ../../build.mjs xray"
   },
   "dependencies": {
     "aws-xray-sdk": "^3.4.1"
