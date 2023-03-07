@@ -15,7 +15,8 @@
     "noUnusedParameters": true,
     "inlineSourceMap": true,
     "inlineSources": true,
-    "strictPropertyInitialization": true
+    "strictPropertyInitialization": true,
+    "emitDeclarationOnly": true,
   },
   "exclude": ["node_modules", "cdk.out"]
 }
