@@ -1,0 +1,4 @@
+*.ts
+!*.d.ts
+!layers/*/dist/layer/nodejs/node_modules
+tsconfig.json

@@ -2,6 +2,7 @@
   "name": "@villehx/xray",
   "version": "1.0.1",
   "main": "./dist/nodejs/node_modules/@villehx/xray.js",
+  "module": "./xray.ts",
   "types": "./dist/xray.d.ts",
   "scripts": {
     "build": "npm run compile && npm run bundle",
