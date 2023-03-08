@@ -1,12 +1,10 @@
 {
   "name": "@villehx/axios",
   "version": "1.0.1",
-  "main": "./dist/layer/nodejs/node_modules/@villehx/axios.js",
-  "types": "./dist/axios.d.ts",
+  "module": "./axios.ts",
+  "types": "./axios.ts",
   "scripts": {
-    "build": "npm run compile && npm run bundle",
-    "compile": "tsc",
-    "bundle": "node ../../build.mjs axios"
+    "build": "node ../../build.js axios"
   },
   "dependencies": {
     "axios": "^1.3.4"

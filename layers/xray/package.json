@@ -4,9 +4,7 @@
   "module": "./xray.ts",
   "types": "./xray.ts",
   "scripts": {
-    "build": "npm run compile && npm run bundle",
-    "compile": "tsc",
-    "bundle": "node ../../build.mjs xray"
+    "build": "node ../../build.js xray"
   },
   "dependencies": {
     "aws-xray-sdk": "^3.4.1"

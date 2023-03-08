@@ -1,4 +1,3 @@
 .cdk.staging
 cdk.out
 node_modules
-!layers/*/dist/layer/nodejs/node_modules
