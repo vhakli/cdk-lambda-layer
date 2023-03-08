@@ -1,6 +1,6 @@
 {
   "name": "@villehx/xray",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/nodejs/node_modules/@villehx/xray.js",
   "types": "./dist/xray.d.ts",
   "scripts": {

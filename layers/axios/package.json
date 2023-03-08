@@ -1,6 +1,6 @@
 {
   "name": "@villehx/axios",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/layer/nodejs/node_modules/@villehx/axios.js",
   "types": "./dist/axios.d.ts",
   "scripts": {
