@@ -8,7 +8,7 @@ const path = require("path");
     throw new Error("No project name provided");
   }
 
-  const layerDir = path.join(__dirname, `./layers/${project}`);
+  const layerDir = path.join(__dirname, `./packages/${project}`);
   const layer = path.join(layerDir, `${project}.ts`);
   const outfile = path.join(
     layerDir,
