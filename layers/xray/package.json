@@ -2,6 +2,7 @@
   "name": "@villehx/xray",
   "version": "1.0.1",
   "module": "./xray.ts",
+  "types": "./xray.ts",
   "scripts": {
     "build": "npm run compile && npm run bundle",
     "compile": "tsc",
